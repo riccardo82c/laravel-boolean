@@ -10899,3 +10899,8 @@ a.text-dark:focus {
   }
 }
 
+.card img {
+  text-align: center;
+  width: 150px;
+}
+
