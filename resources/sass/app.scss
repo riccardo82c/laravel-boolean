@@ -1,9 +1,27 @@
 @import "~bootstrap/scss/bootstrap";
 
 
+/* header */
+header {
+    margin-bottom: 50px;
+}
 
 
-.card img {
-    text-align: center;
-    width: 150px;
+
+
+/* main cards */
+
+.card-group {
+
+    justify-content: center;
+
+    .card {
+
+        max-width: 560px;
+
+        img {
+
+            width: 150px;
+        }
+    }
 }

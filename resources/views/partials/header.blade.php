@@ -7,13 +7,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="{{route('home')}}">Home </a>
+		<a class="nav-link {{url()->current() == route('home') ? 'active' : ''}}" href="{{route('home')}}">Home </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{route('student')}}">Studenti</a>
+        <a class="nav-link {{url()->current() == route('student') ? 'active' : ''}}" href="{{route('student')}}">Studenti</a>
 		</li>
 		<li class="nav-item">
-        <a class="nav-link" href="{{route('contact')}}">Contatti</a>
+        <a class="nav-link {{url()->current() == route('contact') ? 'active' : ''}}" href="{{route('contact')}}">Contatti</a>
       </li>
     </ul>
   </div>

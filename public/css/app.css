@@ -10899,8 +10899,23 @@ a.text-dark:focus {
   }
 }
 
-.card img {
-  text-align: center;
+/* header */
+
+header {
+  margin-bottom: 50px;
+}
+
+/* main cards */
+
+.card-group {
+  justify-content: center;
+}
+
+.card-group .card {
+  max-width: 560px;
+}
+
+.card-group .card img {
   width: 150px;
 }
 
