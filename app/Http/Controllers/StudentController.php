@@ -19,10 +19,17 @@ class StudentController extends Controller {
 
     public function show($id) {
 
-        $studenti = $this->studentiDb;
-        $studente = $this->studentiDb[$id];
+        if (!isset($this->studentiDb[$id])) {
 
-        return view('show', compact('studenti', 'studente'));
+            abort(404);
+
+        } else {
+
+            $studenti = $this->studentiDb;
+            $studente = $this->studentiDb[$id];
+
+            return view('show', compact('studenti', 'studente'));
+        }
 
     }
 }

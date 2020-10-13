@@ -16,14 +16,14 @@
 
 		{{-- studenti li no drop --}}
 		<li class="nav-item">
-        <a class="nav-link {{url()->current() == route('student') ? 'active' : ''}}" href="{{route('student')}}">Studenti</a>
+        <a class="nav-link" href="{{route('student')}}">Studenti</a>
 		</li>
 			 
 		@else
 
 		{{-- personal student li  dropdown--}}
 		<li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Studenti
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">

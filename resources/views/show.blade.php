@@ -11,11 +11,12 @@
     <img src="{{$studente['img']}}" class="card-img-top ml-auto mr-auto student-photo" alt="...">
     <div class="card-body">
 		<h5 class="card-title text-center">{{$studente['name']}}</h5>
+		
+		<p class="card-text">{{$studente['descr']}}</p>
 		<p class="card-text">Anni: {{$studente['age']}}</p>
-	   <p class="card-text">{{$studente['descr']}}</p>
     </div>
     <div class="card-footer">
-      <small class="text-muted">{{$studente['work']}}</small>
+      <small class="text-muted">Lavora presso: {{$studente['work']}}</small>
     </div>
    </div> 
 </div>

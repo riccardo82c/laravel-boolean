@@ -1,0 +1,23 @@
+.main-jumbo {
+    background-color: $jumbo-bgc;
+    background-image: url("https://www.boolean.careers/images/visual/header_after.png");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    h1,
+    p {
+        color: white;
+    }
+
+}
+
+
+/* cards */
+
+.card-body {
+    a {
+        color: $bool-green;
+
+    }
+}

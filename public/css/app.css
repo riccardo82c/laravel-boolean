@@ -10899,10 +10899,37 @@ a.text-dark:focus {
   }
 }
 
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #0cd977;
+  text-decoration: underline;
+}
+
 /* header */
 
-header {
-  margin-bottom: 50px;
+nav {
+  height: 100px;
+}
+
+.main-jumbo {
+  background-color: #00234f;
+  background-image: url("https://www.boolean.careers/images/visual/header_after.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.main-jumbo h1,
+.main-jumbo p {
+  color: white;
+}
+
+/* cards */
+
+.card-body a {
+  color: #0cd977;
 }
 
 /* main cards */

@@ -12,11 +12,11 @@
 	 <a href="{{route('show',['id' => $key])}}">
 			<h5 class="card-title text-center">{{$studente['name']}}</h5>
 		</a>
-     <p class="card-text">Anni: {{$studente['age']}}</p>
+     <h4 class="card-text">{{$studente['work']}}</h4>
 	   <p class="card-text">{{$studente['descr']}}</p>
     </div>
     <div class="card-footer">
-      <small class="text-muted">{{$studente['work']}}</small>
+      <small class="text-muted">Anni: {{$studente['age']}}</small>
     </div>
    </div> 
 	@endforeach
