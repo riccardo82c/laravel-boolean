@@ -19,9 +19,10 @@ class StudentController extends Controller {
 
     public function show($id) {
 
+        $studenti = $this->studentiDb;
         $studente = $this->studentiDb[$id];
 
-        return view('show', compact('studente'));
+        return view('show', compact('studenti', 'studente'));
 
     }
 }

@@ -10913,9 +10913,11 @@ header {
 
 .card-group .card {
   max-width: 560px;
+  padding-top: 10px;
 }
 
-.card-group .card img {
-  width: 150px;
+.card-group .card img.student-photo {
+  border-radius: 50% !important;
+  width: 200px;
 }
 

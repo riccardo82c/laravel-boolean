@@ -18,10 +18,12 @@ header {
     .card {
 
         max-width: 560px;
+        padding-top: 10px;
 
-        img {
-
-            width: 150px;
+        img.student-photo {
+            border-radius: 50% !important;
+            width: 200px;
         }
+
     }
 }

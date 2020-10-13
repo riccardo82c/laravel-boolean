@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('titolo','Studenti')
+@section('titolo','Info studente')
 	 
 @section('main')
 	
@@ -8,9 +8,10 @@
 
 <div class="card-group">
 	<div class="card">
-    <img src="{{$studente['img']}}" class="card-img-top ml-auto mr-auto" alt="...">
+    <img src="{{$studente['img']}}" class="card-img-top ml-auto mr-auto student-photo" alt="...">
     <div class="card-body">
-	   <h5 class="card-title">{{$studente['name']}}</h5>
+		<h5 class="card-title text-center">{{$studente['name']}}</h5>
+		<p class="card-text">Anni: {{$studente['age']}}</p>
 	   <p class="card-text">{{$studente['descr']}}</p>
     </div>
     <div class="card-footer">
