@@ -10901,7 +10901,11 @@ a.text-dark:focus {
 
 /* margini */
 
-/* logo */
+/* heigth */
+
+body {
+  min-height: 100vh;
+}
 
 /* link */
 
@@ -10923,7 +10927,7 @@ a.text-dark:focus {
 /* header */
 
 nav .navbar-brand img {
-  height: 60px;
+  height: 40px;
 }
 
 .main-jumbo {
@@ -10958,6 +10962,25 @@ nav .navbar-brand img {
 .contatti-form button.btn-green-bool {
   background-color: #0cd977;
   border: none;
+}
+
+.footer-sticky {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #0cd977;
+  color: white;
+}
+
+.footer-sticky p {
+  font-size: 20px;
+  padding: 0 20px;
+  margin: 0;
 }
 
 /* main cards */
