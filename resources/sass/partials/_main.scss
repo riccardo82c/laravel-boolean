@@ -1,4 +1,7 @@
 .main-jumbo {
+
+
+
     background-color: $jumbo-bgc;
     background-image: url("https://www.boolean.careers/images/visual/header_after.png");
     background-position: right;
@@ -12,12 +15,31 @@
 
 }
 
-
 /* cards */
 
-.card-body {
-    a {
-        color: $bool-green;
+.card-group {
 
+    margin-top: $card-margin;
+
+
+    .card-body {
+        a {
+            color: $bool-green;
+
+        }
+    }
+
+}
+
+
+
+
+/* form */
+.contatti-form {
+    margin-top: $form-margin;
+
+    button.btn-green-bool {
+        background-color: $bool-green;
+        border: none;
     }
 }

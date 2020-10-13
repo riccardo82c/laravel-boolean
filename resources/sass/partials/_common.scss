@@ -1,7 +1,19 @@
+/* logo */
+
+
+
+/* link */
+
 .navbar-light .navbar-nav .show>.nav-link,
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .nav-link.active {
-    color: $bool-green;
-    text-decoration: underline;
+.navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+
+    &.active {
+        color: $bool-green;
+        text-decoration: underline;
+
+    }
+
 }

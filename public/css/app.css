@@ -10899,9 +10899,22 @@ a.text-dark:focus {
   }
 }
 
+/* margini */
+
+/* logo */
+
+/* link */
+
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link {
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .show > .nav-link.active,
+.navbar-light .navbar-nav .active > .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show.active,
 .navbar-light .navbar-nav .nav-link.active {
   color: #0cd977;
   text-decoration: underline;
@@ -10909,8 +10922,8 @@ a.text-dark:focus {
 
 /* header */
 
-nav {
-  height: 100px;
+nav .navbar-brand img {
+  height: 60px;
 }
 
 .main-jumbo {
@@ -10928,8 +10941,23 @@ nav {
 
 /* cards */
 
-.card-body a {
+.card-group {
+  margin-top: 150px;
+}
+
+.card-group .card-body a {
   color: #0cd977;
+}
+
+/* form */
+
+.contatti-form {
+  margin-top: 150px;
+}
+
+.contatti-form button.btn-green-bool {
+  background-color: #0cd977;
+  border: none;
 }
 
 /* main cards */
