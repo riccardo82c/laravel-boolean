@@ -10903,10 +10903,6 @@ a.text-dark:focus {
 
 /* heigth */
 
-body {
-  min-height: 100vh;
-}
-
 /* link */
 
 .navbar-light .navbar-nav .show > .nav-link,
@@ -10959,12 +10955,18 @@ nav .navbar-brand img {
   margin-top: 150px;
 }
 
-.contatti-form button.btn-green-bool {
+.contatti-form .btn-green-bool {
   background-color: #0cd977;
   border: none;
 }
 
-.footer-sticky {
+.contatti-form .btn-green-bool:hover,
+.contatti-form .btn-green-bool:active,
+.contatti-form .btn-green-bool:focus {
+  background-color: #0bc16a !important;
+}
+
+.footer-fixed {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -10977,7 +10979,7 @@ nav .navbar-brand img {
   color: white;
 }
 
-.footer-sticky p {
+.footer-fixed p {
   font-size: 20px;
   padding: 0 20px;
   margin: 0;

@@ -1,8 +1,11 @@
 <?php
 
+/* array studenti */
+
 return [
     [
         'name' => 'Daniela Ortenzi',
+        'slug' => 'dan',
         'age' => '27',
         'genre' => 'f',
         'work' => 'RDS Radio Dimensione Suono',
@@ -11,6 +14,7 @@ return [
     ],
     [
         'name' => 'Nicholas Antidormi',
+        'slug' => 'nic',
         'age' => '20',
         'genre' => 'm',
         'work' => 'Atoms Studio',

@@ -20,3 +20,4 @@ Route::get('/contatti', 'StaticController@contact')->name('contact');
 /* student view route */
 Route::get('/studenti', 'StudentController@index')->name('student');
 Route::get('/studenti/show/{id}', 'StudentController@show')->name('show');
+Route::get('/studenti/{slug}', 'StudentController@slug');

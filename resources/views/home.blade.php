@@ -3,6 +3,7 @@
 @section('titolo','Home')
 	 
 @section('main')
+
 <div class="jumbotron jumbotron-fluid main-jumbo">
   <div class="container">
     <h1 class="display-2">Sei ad un passo dalla

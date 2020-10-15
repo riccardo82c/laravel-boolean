@@ -8,7 +8,7 @@
 
 <div class="card-group">
 	<div class="card">
-    <img src="{{$studente['img']}}" class="card-img-top ml-auto mr-auto student-photo" alt="...">
+    <img src="{{$studente['img']}}" class="card-img-top mx-auto student-photo" alt="immagine studente">
     <div class="card-body">
 		<h5 class="card-title text-center">{{$studente['name']}}</h5>
 		

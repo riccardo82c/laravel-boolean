@@ -11,9 +11,9 @@
 	</div>
 	<div class="form-group">
 		<label for="exampleFormControlTextarea1">Compila la tua richiesta di info</label>
-		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		<textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
 	</div>
-	<button type="submit" class="btn btn-success btn-lg btn-block btn-green-bool">Block level button</button>
+	<button type="submit" class="btn btn-success btn-lg btn-block btn-green-bool">Invia Richiesta</button>
 	</form>
 </div>
 
